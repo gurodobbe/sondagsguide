@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maddrikke</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome for the burger icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&family=Noto+Sans+Tai+Le&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header1">
+        <!-- Burger Icon -->
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <!-- Navigation Links -->
+        <nav id="menu">
+            <a href="index.html">Forsiden</a> 
+            <a href="maddrikke.html">Mad & drikke</a>
+            <a href="utinaturen.html">Ut i naturen</a>
+            <a href="fysiskaktivitet.html">Fysisk aktivitet</a>
+            <a href="kulturtilbud.html">Kulturtilbud</a>
+            <a href="#klikk">Kontakt</a>
+            <a href="tips.html">Tips oss!</a>
+        </nav>
+
+        <div class="bilde_vin_container">
+            <section class="overskrift_p_mad">
+                <h1 id="overskrift_maddrikke">Mad & <br>Drikke</h1>
+                <p class="paragraf_mad">Uten mat og drikke duger helten ikke- og uavhengig av hvordan din lørdag har sett ut, er jeg sikker på at det er klart for digg deilig påfyll! 
+                <br>Her er en liste med søndagsfavoritter som gjør deg klar for en ny uke, uten å ødelegge pengepungen!</p>
+            </section>
+        </div>
+    </header>
+
+    <!-- Next section after background image -->
+    <section class="anbefalinger">
+        <h2>Våre anbefalinger</h2>
+        <img src="img/vinforside1.jpg" alt="Anbefalt vin">
+    </section>
+
+    <script src="css/script.js"></script>
+
+    <section class="menyboks_container_morgenmad">
+        <section class="bilder_morgenmad">
+            <img class="morgenmad" src="img/vesterlauget1.jpg" alt="morgenmad">
+            <img class="morgenmad" src="img/vesterlauget2.jpg" alt="morgenmad">
+        </section>
+        <section class="tekst_morgenmad">
+            <h1 id="morgenmad_h1">Morgenmad</h1>
+            <p id="morgenmad_p"><b>Vesterlauget</b> <br> Vestergade 50 
+            <br>(Aarhus Ø Irma Pedersens Gade 180)<br>Morgenmad - 60kr</p>
+        </section>
+    </section>
+
+    
+    
+
+    <section class="menyboks_container_kaffe">
+        <section class="bilder_kaffe">
+            <img class="kaffe" src="img/nabokiosk1.jpg" alt="kaffe">
+            <img class="kaffe" src="img/nabokiosk2.jpg" alt="kaffe">
+        </section>
+        <section class="tekst_kaffe">
+            <h1 id="kaffe_h1">Kaffe</h1>
+            <p id="kaffe_p"><b>Nabokiosk</b> <br> Ingerslevs PL. 1
+            <br><br>Kaffe fra 25kr</p>
+        </section>
+    </section>
+
+
+    <section class="menyboks_container_frokost">
+        <section class="bilder_frokost">
+            <img class="frokost" src="img/oli1.JPEG" alt="frokost">
+            <img class="frokost" src="img/oli2.jpg" alt="frokost">
+        </section>
+        <section class="tekst_frokost">
+            <h1 id="frokost_h1">Frokost</h1>
+            <p id="morgenmad_p"><b>Oli-bistro</b> <br> Mejlgade 41 
+            <br><br>Tre rætter 125kr</p>
+        </section>
+    </section>
+
+    
+    
+
+    <section class="menyboks_container_aften">
+        <section class="bilder_aften">
+            <img class="aften" src="img/osteria1.jpg" alt="aften">
+            <img class="aften" src="img/osteria2.jpg" alt="aften">
+        </section>
+        <section class="tekst_aften">
+            <h1 id="aften_h1">Aftensmad</h1> <br>
+            <p id="kaffe_p"><b>Osteria 98</b> <br> Nørre Alle 98
+            <br><br>Pasta 99kr</p>
+        </section>
+    </section>
+
+    <section class="menyboks_container_vin">
+        <section class="bilder_vin">
+            <img class="vin" src="img/maddrikke_forside.jpg" alt="vin">
+            <img class="vin" src="img/vinforside1.jpg" alt="vin">
+        </section>
+        <section class="tekst_vin">
+            <h1 id="vin_h1">Vin</h1> <br>
+            <p id="kaffe_p"><b>Pinot</b> <br> Frue Kirkeplads 1A
+            <br><b>Tips:</b><br>Hver tirsdag får du <br>glass vin til 40kr</p>
+        </section>
+    </section>
+
+    <footer class="footer_container">
+        <div class="kontakt_container">
+            <p class="kontakt_overskrift">Kontakt</p>
+            <p class="kontakt_info">+45 46904357 <br> sondag@aarhus.dk</p>
+        </div>
+        <div class=follow_container>
+            <p class="follow_info">Følg med</p>
+            <p id="klikk"></p>
+           <br>
+            <a href="https://www.instagram.com/" class="fa-brands fa-instagram" ></a>
+            <a href="https://www.facebook.com/"  class="fa-brands fa-facebook"> </a>
+            <a href="https://www.tiktok.com/"   class="fa-brands fa-tiktok"> </a>
+    
+        </div>
+    </footer>
+
+
+    <script src="css/script.js"></script>
+</body>
+</html>
